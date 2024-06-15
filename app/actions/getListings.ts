@@ -1,3 +1,5 @@
+'use client';
+
 import prisma from "@/lib/prismadb";
 
 export interface IListingsParams {

@@ -14,9 +14,11 @@ function Logo({}: Props) {
       <Image
         alt="logo"
         className="hidden md:block cursor-pointer"
-        height="100"
-        width="100"
+        height="70"
+        width="70"
         src="/assets/logo.png"
+        style={{ borderRadius: "90%" }}
+
       />
     </div>
   );

@@ -50,9 +50,9 @@ function ListingInfo({
           <Avatar src={user?.image} userName={user?.name} />
         </div>
         <div className="flex flex-row items-center gap-4 font-light text-neutral-500">
-          <p>{guestCount} guests</p>
-          <p>{roomCount} rooms</p>
-          <p>{bathroomCount} bathrooms</p>
+          <p>{guestCount} Guests</p>
+          <p>{roomCount} Rooms</p>
+          <p>{bathroomCount} Bathrooms</p>
         </div>
       </div>
       <hr />
@@ -66,7 +66,7 @@ function ListingInfo({
       <hr />
       <div className="flex flex-col">
         <p className="text-4xl font-bold text-[#FF5A5F]">
-          air<span className="text-black">cover</span>
+          air<span className="text-black">Cover</span>
         </p>
         <p className="text-neutral-500 pt-3">
           Every booking includes free protection from Host cancellations,

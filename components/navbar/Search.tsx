@@ -43,13 +43,13 @@ function Search({}: Props) {
     return "Any Week";
   }, [startDate, endDate]);
 
-  const guessLabel = useMemo(() => {
-    if (guestCount) {
-      return `${guestCount} Guests`;
-    }
+  // const guessLabel = useMemo(() => {
+  //   if (guestCount) {
+  //     return `${guestCount} Guests`;
+  //   }
 
-    return "Add Guests";
-  }, []);
+  //   return "Add Guests";
+  // }, []);
 
   return (
     <div
@@ -62,7 +62,7 @@ function Search({}: Props) {
           {durationLabel}
         </div>
         <div className="text-sm pl-6 pr-2 text-gray-600 flex flex-row items-center gap-3">
-          <div className="hidden sm:block text-center">{guessLabel}</div>
+          {/* <div className="hidden sm:block text-center">{guessLabel}</div> */}
           <div className="p-2 bg-rose-500 rounded-full text-white">
             <BiSearch size={18} />
           </div>
