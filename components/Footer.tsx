@@ -17,14 +17,14 @@ function Footer({}: Props) {
     ["Hosting","Try hosting","AirCover for Hosts","Explore hosting resources","Safety information","How to host responsibly"],
   ];
 
-  useEffect(() => {
-    fetch(
-      `https://extreme-ip-lookup.com/json/?key=${process.env.NEXT_PUBLIC_LOOKUP_KEY}`
-    )
+  // useEffect(() => {
+  //   fetch(
+  //     // `https://extreme-ip-lookup.com/json/?key=${process.env.NEXT_PUBLIC_LOOKUP_KEY}`
+  //   )
     
-      .then((res) => res.json())
-      .then((data) => setCountry(data.country));
-  }, []);
+  //     .then((res) => res.json())
+  //     .then((data) => setCountry(data.country));
+  // }, []);
 
   const footerColumns = itemData.map((item, index) => (
     <FooterColumn index={index} data={item} />
