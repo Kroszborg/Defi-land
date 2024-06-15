@@ -21,6 +21,7 @@ function Footer({}: Props) {
     fetch(
       `https://extreme-ip-lookup.com/json/?key=${process.env.NEXT_PUBLIC_LOOKUP_KEY}`
     )
+    
       .then((res) => res.json())
       .then((data) => setCountry(data.country));
   }, []);
