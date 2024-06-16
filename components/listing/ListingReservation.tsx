@@ -27,8 +27,11 @@ function ListingReservation({
   return (
     <div className="bg-white rounded-xl border-[1px] border-neutral-200 overflow-hidden">
       <div className="flex flex-row items-center gap-1 p-4">
-        <p className="flex gap-1 text-2xl font-semibold">
-          $ {price} <p className="font-light text-neutral-600">night</p>
+      <p className="flex gap-1 text-2xl font-semibold">
+          $ {price}
+        </p>
+        <p className="flex gap-1 text-l font-semibold">
+          {}<p className="font-light text-neutral-600">/20000 Fractions</p>
         </p>
       </div>
       <hr />
